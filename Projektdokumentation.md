@@ -24,15 +24,15 @@ Hier sind einige mögliche User Stories für dein Projekt:
 
 | US-№ | Verbindlichkeit | Typ      | Beschreibung                                                            |
 | ---- | --------------- | -------- | ----------------------------------------------------------------------- |
-| 1    | Muss            | Funktion | Als ein Nutzer möchte ich die Hauptseite der Pinnwand sehen, damit ich die verschiedenen Ideen und Kategorien schnell überblicken kann. |
+| 1    | Muss            | Funktion | Als ein Nutzer möchte ich die Hauptseite der Pinnwand sehen, damit ich die verschiedenen Ideen schnell überblicken kann. |
 | 2    | Muss            | Funktion | Als ein Nutzer möchte ich ein Formular haben, um neue Ideen zu erstellen, damit ich meine Gedanken und Vorschläge einbringen kann. |
 | 3    | Muss            | Funktion | Als ein Nutzer möchte ich meine Ideen löschen können, damit ich falsche oder unnötige Beiträge entfernen kann. |
 | 4    | Muss            | Funktion | Als ein Administrator möchte ich alle Ideen löschen können, damit die Pinnwand sauber bleibt und keine unerwünschten Inhalte vorhanden sind. |
-| 5    | Muss            | Funktion | Als ein Nutzer möchte ich mich mit meiner E-Mail und Passwort oder Google-Login anmelden können, damit ich sicher auf meine Daten zugreifen kann. |
+| 5    | Muss            | Funktion | Als ein Nutzer möchte ich mich mit meiner E-Mail und Passwort anmelden können, damit ich sicher auf meine Daten zugreifen kann. |
 | 6    | Muss            | Funktion | Als ein Nutzer möchte ich Ideen positiv oder negativ bewerten können, damit ich meine Meinung zu den Vorschlägen äußern kann. |
 | 7    | Muss            | Funktion | Als ein Nutzer möchte ich die Votes einer Idee sehen können, damit ich die Popularität oder den Nutzen einer Idee einschätzen kann. |
-| 8    | Muss            | Funktion | Als ein Nutzer möchte ich Kommentare zu Ideen hinterlassen können, damit ich meine Meinung und weitere Anmerkungen zu einer Idee teilen kann. |
-| 9    | Muss            | Funktion | Als ein Nutzer möchte ich alle Kommentare zu einer Idee sehen können, damit ich die Meinungen anderer Nutzer einsehen kann. |
+| 8    | Kann            | Funktion | Als ein Nutzer möchte ich Kommentare zu Ideen hinterlassen können, damit ich meine Meinung und weitere Anmerkungen zu einer Idee teilen kann. |
+| 9    | Kann            | Funktion | Als ein Nutzer möchte ich alle Kommentare zu einer Idee sehen können, damit ich die Meinungen anderer Nutzer einsehen kann. |
 | 10   | Muss            | Qualität | Als ein Entwickler möchte ich sicherstellen, dass alle Funktionen ohne Fehler laufen, damit die Anwendung stabil und benutzerfreundlich bleibt. |
 | 11   | Muss            | Qualität | Als ein Entwickler möchte ich die Anwendung auf einem Hosting-Service bereitstellen, damit sie online zugänglich ist und von Nutzern verwendet werden kann. |
 
