@@ -94,12 +94,22 @@ Annahme: Die Anwendung benötigt kein komplexes Server-Setup, daher reicht ein s
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| AP-№ | Datum       | Zuständig       | Geplante Zeit | Tatsächliche Zeit |
+| ---- |------------|----------------|--------------|------------------|
+| 1.A  | 28.02.2025 | Ben Müller      | 235 Minuten  | 255 Minuten      |
+| 1.B  | 28.02.2025 | Joël Haldimann  | 150 Minuten  | 170 Minuten      |
+| 2.A  | 28.02.2025 | John Broder     | 200 Minuten  | 220 Minuten      |
+| 2.B  | 28.02.2025 | Ben Müller      | 220 Minuten  | 240 Minuten      |
+| 2.C  | 28.02.2025 | John Broder     | 145 Minuten  | 135 Minuten      |
+| 3.A  | 28.02.2025 | Joël Haldimann  | 165 Minuten  | 185 Minuten      |
+| 4.A  | 28.02.2025 | Ben Müller      | 245 Minuten  | 265 Minuten      |
+| 4.B  | 28.02.2025 | John Broder     | 105 Minuten  | 125 Minuten      |
+| 5.A  | 28.02.2025 | Joël Haldimann  | 245 Minuten  | 265 Minuten      |
+| 6.A  | 28.02.2025 | John Broder     | 165 Minuten  | 185 Minuten      |
+| 6.B  | 28.02.2025 | Ben Müller      | 65 Minuten   | 55 Minuten       |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
+
 
 ## 5 Kontrollieren
 
