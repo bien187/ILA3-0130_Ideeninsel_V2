@@ -119,5 +119,5 @@ Annahme: Die Anwendung benötigt kein komplexes Server-Setup, daher reicht ein s
 | 7.1  | 07.03.2025 | Erfolgreich | John   |
 
 ### Fazit:
-Alle Testfälle wurden am 07.03.2025 erfolgreich durchgeführt. Die getesteten Funktionen haben erwartungsgemäß funktioniert, und es wurden keine Fehler oder unerwarteten Probleme festgestellt. Damit ist die Anwendung stabil und bereit für den produktiven Einsatz.
+Alle Testfälle wurden am 07.03.2025 erfolgreich durchgeführt. Die getesteten Funktionen haben erwartungsgemäss funktioniert, und es wurden keine Fehler oder unerwarteten Probleme festgestellt. Damit ist die Anwendung stabil und bereit für den produktiven Einsatz.
 
