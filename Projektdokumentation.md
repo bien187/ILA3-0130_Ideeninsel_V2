@@ -2,21 +2,22 @@
 
 Gruppe McBirdies - Ben Mueller, John Broder, Joël S. J. Haldimann
 
-| Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-| 10.01.2025 | 0.0.1   | |
-| 17.01.2025 | ...     | |
-| 24.01.2025 | ...     | |
-| 14.02.2025 | ...     | |
-| 21.02.2025 | ...     | |
-| 28.02.2025 | ...     | |
-| 7.03.2025  | 1.0.0   | |
+| Datum       | Version | Zusammenfassung                                              |
+|------------|---------|--------------------------------------------------------------|
+| 10.01.2025 | 0.0.1   | Erstellung des zentralen Layouts der Pinnwand. Platzhalter für Ideen und Kategorien hinzugefügt. Erste Darstellung der Ideenansicht. |
+| 17.01.2025 | 0.1.0   | Programmierung der Funktion zur Erstellung neuer Ideen. Nutzer können Ideen über ein Formular hinzufügen. Speicherung der Daten in Firebase. |
+| 24.01.2025 | 0.2.0   | Implementierung der Löschfunktion für Ideen. Ersteller und Administratoren können Ideen entfernen. Gelöschte Ideen werden vollständig aus der Datenbank entfernt. |
+| 14.02.2025 | 0.3.0   | Authentifizierung und Nutzerverwaltung integriert. Login mit Firebase Authentication (E-Mail/Passwort oder Google-Login) ermöglicht. |
+| 21.02.2025 | 0.4.0   | Up- und Downvote-System implementiert. Nutzer können Ideen bewerten, Votes werden in Firebase gespeichert und aktualisiert. |
+| 28.02.2025 | 0.5.0   | Entwicklung des Kommentarsystems und Voting-Systems abgeschlossen. Nutzer können Kommentare zu Ideen hinzufügen, sowie Ideen positiv oder negativ bewerten. Speicherung und Anzeige der Daten in Firebase. |
+| 07.03.2025 | 1.0.0   | Finalisierung und Deployment. Fehlerbehebung, Stabilitätsprüfung und Bereitstellung auf Hosting-Service. |
+
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-In dem Projekt LA-1304 haben wir bereits die IdeeninselV1 erstellt. In diesem Projekt werden wir nun die verbesserte Version V2 erstellen und umsetzen. Das Prinzip der Ideeninsel ist, dass man eine Pinnwand hat und auf dieser eine Idee, einen Geistesblitz oder andere Hirnvorgänge posten und löschen kann. Die Pinnwand ins öffentlich und für alle User einsehbar. 
+In dem Projekt LA-1304 haben wir bereits die IdeeninselV1 erstellt. In diesem Projekt werden wir nun die verbesserte Version V2 erstellen und umsetzen. Das Prinzip der Ideeninsel ist, dass man eine Pinnwand hat und auf dieser eine Idee, einen Geistesblitz oder andere Hirnvorgänge posten und löschen kann. Die Pinnwand ist öffentlich und für alle User einsehbar. 
 
 ### 1.2 User Stories
 
@@ -104,9 +105,19 @@ Annahme: Die Anwendung benötigt kein komplexes Server-Setup, daher reicht ein s
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| TC-№ | Datum       | Resultat    | Tester |
+| ---- |------------|------------|--------|
+| 1.1  | 07.03.2025 | Erfolgreich | John   |
+| 2.1  | 07.03.2025 | Erfolgreich | John   |
+| 2.2  | 07.03.2025 | Erfolgreich | John   |
+| 3.1  | 07.03.2025 | Erfolgreich | John   |
+| 4.1  | 07.03.2025 | Erfolgreich | John   |
+| 4.2  | 07.03.2025 | Erfolgreich | John   |
+| 5.1  | 07.03.2025 | Erfolgreich | John   |
+| 5.2  | 07.03.2025 | Erfolgreich | John   |
+| 6.1  | 07.03.2025 | Erfolgreich | John   |
+| 7.1  | 07.03.2025 | Erfolgreich | John   |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+### Fazit:
+Alle Testfälle wurden am 07.03.2025 erfolgreich durchgeführt. Die getesteten Funktionen haben erwartungsgemäß funktioniert, und es wurden keine Fehler oder unerwarteten Probleme festgestellt. Damit ist die Anwendung stabil und bereit für den produktiven Einsatz.
+
