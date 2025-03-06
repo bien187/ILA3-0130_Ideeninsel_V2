@@ -60,23 +60,36 @@ Hier sind die Testfälle, die die User Stories abdecken:
 
 | AP-№  | Frist | Zuständig | Beschreibung                                           | Geplante Zeit |
 | ----- | ----- | --------- | ------------------------------------------------------ | ------------- |
-| 1.A    |       | Person 1  | Erstellung der Hauptseite mit Kategorien und Platzhaltern sowie Strukturierung der Ideenanzeige | 235 Minuten    |
-| 1.B    |       | Person 2  | Verknüpfung der Hauptseite mit Firebase und Darstellung der Kategorien dynamisch | 150 Minuten    |
-| 2.A    |       | Person 3  | Entwicklung und Implementierung eines Formulars zur Erstellung neuer Ideen, inkl. Eingabevalidierung | 200 Minuten    |
-| 2.B    |       | Person 1  | Speichern der neuen Ideen in Firebase und Testen der Funktionalität | 220 Minuten    |
-| 2.C    |       | Person 2  | Implementierung der Löschfunktion für Ideen durch den Ersteller oder Administrator, mit Test | 145 Minuten    |
-| 3.A    |       | Person 3  | Implementierung des Login-Systems mit E-Mail/Passwort-Authentifizierung und Google-Login | 165 Minuten    |
-| 4.A    |       | Person 1  | Entwicklung des Voting-Systems (Upvotes und Downvotes), Speicherung der Votes in Firebase | 245 Minuten    |
-| 4.B    |       | Person 2  | Anzeige und Aktualisierung der Votes | 105 Minuten    |
-| 5.A    |       | Person 3  | Entwicklung und Implementierung des Kommentar-Systems, inkl. Speicherung und Anzeige | 245 Minuten    |
-| 6.A    |       | Person 1  | Gesamtes Projekt testen: Funktionalität, Fehler und Stabilität | 165 Minuten    |
-| 6.B    |       | Person 2  | Vorbereitung des Deployments und Deployment der Anwendung auf Firebase Hosting | 65 Minuten    |
+| 1.A    |28.2.2025       | Ben Müller  | Erstellung der Hauptseite mit Kategorien und Platzhaltern sowie Strukturierung der Ideenanzeige | 235 Minuten    |
+| 1.B    |28.2.2025       | Joël Haldimann  | Verknüpfung der Hauptseite mit Firebase| 150 Minuten    |
+| 2.A    |28.2.2025       | John Broder  | Entwicklung und Implementierung eines Formulars zur Erstellung neuer Ideen, inkl. Eingabevalidierung | 200 Minuten    |
+| 2.B    |28.2.2025       | Ben Müller  | Speichern der neuen Ideen in Firebase und Testen der Funktionalität | 220 Minuten    |
+| 2.C    |28.2.2025       | John Broder  | Implementierung der Löschfunktion für Ideen durch den Ersteller | 145 Minuten    |
+| 3.A    |28.2.2025       | Joël Haldimann  | Implementierung des Login-Systems mit E-Mail/Passwort-Authentifizierung und Google-Login | 165 Minuten    |
+| 4.A    |28.2.2025       | Ben Müller  | Entwicklung des Voting-Systems (Upvotes und Downvotes), Speicherung der Votes in Firebase | 245 Minuten    |
+| 4.B    |28.2.2025       | John Broder  | Anzeige und Aktualisierung der Votes | 105 Minuten    |
+| 5.A    |28.2.2025       | Joël Haldimann  | Entwicklung und Implementierung des Kommentar-Systems, inkl. Speicherung und Anzeige | 245 Minuten    |
+| 6.A    |28.2.2025       | John Broder  | Gesamtes Projekt testen: Funktionalität, Fehler und Stabilität | 165 Minuten    |
+| 6.B    |28.2.2025       | Ben Müller  | Vorbereitung des Deployments und Deployment der Anwendung auf Firebase Hosting | 65 Minuten    |
 
 Total: 43 Lektionen
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Basierend auf den definierten User Stories haben wir die folgenden technischen Entscheidungen getroffen:
+
+Technologie-Stack
+Frontend: React
+Entscheidung: React wurde gewählt, da es eine flexible Komponentenarchitektur bietet und eine hohe Wiederverwendbarkeit ermöglicht.
+Annahme: Eine Single-Page-Application (SPA) verbessert die Benutzererfahrung durch schnelle Ladezeiten.
+
+Backend: Firebase
+Entscheidung: Firebase bietet ein einfach zu verwaltendes Backend mit integrierter Authentifizierung und Echtzeit-Datenbank.
+Annahme: Da Firebase keine klassische relationale Datenbank ist, werden die Daten in einer NoSQL-Struktur gespeichert.
+
+Hosting: Netlify
+Entscheidung: Netlify ermöglicht ein einfaches Deployment und eine GitHub-Integration für Continuous Deployment.
+Annahme: Die Anwendung benötigt kein komplexes Server-Setup, daher reicht ein statisches Hosting aus.
 
 ## 4 Realisieren
 
