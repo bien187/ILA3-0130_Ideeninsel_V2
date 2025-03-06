@@ -114,7 +114,7 @@ Annahme: Die Anwendung benötigt kein komplexes Server-Setup, daher reicht ein s
 | 4.1  | 07.03.2025 | Erfolgreich | John   |
 | 4.2  | 07.03.2025 | Erfolgreich | John   |
 | 5.1  | 07.03.2025 | Erfolgreich | John   |
-| 5.2  | 07.03.2025 | Erfolgreich | John   |
+| 5.2  | 07.03.2025 | Nicht Erfolgreich | John   |
 | 6.1  | 07.03.2025 | Erfolgreich | John   |
 | 7.1  | 07.03.2025 | Erfolgreich | John   |
 
